@@ -13,6 +13,7 @@ public class HotelRoom {
     private Long id;
     private String number;
     private String data;
+    private int price;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
